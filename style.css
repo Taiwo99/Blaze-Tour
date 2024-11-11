@@ -1,5 +1,8 @@
-
-
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 h2{
     letter-spacing: 1.4rem;
     padding-top: 90px;
@@ -11,3 +14,122 @@ h4 {
 .pt{
     padding-top: 150px;
 }
+
+
+
+@media (max-width: 767px) {
+    .world{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .world-section{
+        padding: 20px;
+    }
+    .tour{
+        flex-direction: column;
+    }
+    .tour-img{
+        display: none;
+    }
+    .tour-text{
+        width: 100%;
+        margin-top: 0.7rem;
+    }
+    .testimony-section{
+       padding: 150px;
+    }
+}
+@media (max-width: 575px) {
+    .world{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .world-section{
+        padding: 20px;
+    }
+    .tour{
+        flex-direction: column;
+    }
+    .tour-img{
+        display: none;
+    }
+    .tour-text{
+        width: 100%;
+        margin-top: 0.7rem;
+    }
+    .testimony-section{
+       padding-left: 150px;
+    }
+}
+@media (max-width: 425px) {
+    .world{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .world-section{
+        padding: 20px;
+    }
+    .tour{
+        flex-direction: column;
+    }
+    .tour-img{
+        display: none;
+    }
+    .tour-text{
+        width: 100%;
+        margin-top: 0.7rem;
+    }
+    .testimony-section{
+        flex-direction: column;
+       padding: 50px;
+    }
+}
+@media (max-width: 375px) {
+
+    .world{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .world-section{
+        padding: 20px;
+    }
+    .tour{
+        flex-direction: column;
+    }
+    .tour-img{
+        display: none;
+    }
+    .tour-text{
+        width: 100%;
+        margin-top: 0.7rem;
+    }
+    .testimony-section{
+       padding: 0 30px 10px 30px;
+    }
+}
+@media (max-width: 320px) {
+    .tour{
+        flex-direction: column;
+    }
+    .tour-img{
+        display: none;
+    }
+    .world{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .world-section{
+        padding: 20px;
+    }
+    .tour-text{
+        width: 100%;
+        margin-top: 0.7rem;
+    }
+    .testimony-section{
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+}
+
+
+
